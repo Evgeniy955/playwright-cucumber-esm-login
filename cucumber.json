@@ -1,0 +1,11 @@
+{
+  "default": {
+  "import": [
+    "tests/features/**/*.ts"
+  ],
+      "loader": [
+    "ts-node/esm"
+  ]
+}
+}
+
