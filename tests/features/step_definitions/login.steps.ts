@@ -19,9 +19,9 @@ After(async function () {
   await browser.close();
 });
 
-Given('I open the login page', async function () {
-  await loginPage.open();
-});
+// Given('I open the login page', async function () {
+//   await loginPage.open();
+// });
 
 When('I login with username {string} and password {string}', async function (username: string, password: string) {
   await loginPage.enterUsername(username);
