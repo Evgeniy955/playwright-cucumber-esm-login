@@ -1,11 +1,5 @@
-import { Given, When, Then, Before, After, setDefaultTimeout } from '@cucumber/cucumber';
-// import { Browser, Page } from 'playwright';
+import { Given, When, Then, setDefaultTimeout } from '@cucumber/cucumber';
 import '../../../utils/hooks.ts';
-// import { LoginPage } from '../pages/LoginPage.js';
-
-// let browser: Browser;
-// let page: Page;
-// let loginPage: LoginPage;
 
 setDefaultTimeout(60 * 1000);
 
