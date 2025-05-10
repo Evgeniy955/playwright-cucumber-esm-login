@@ -19,3 +19,8 @@
 5. Install dependencies:
    ```bash
     npm install
+   
+6. Install dotenv:
+   ```bash
+    npm install dotenv
+

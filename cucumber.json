@@ -1,11 +1,12 @@
 {
   "default": {
-  "import": [
-    "tests/features/**/*.ts"
-  ],
-      "loader": [
-    "ts-node/esm"
-  ]
+    "import": [
+      "tests/features/**/*.ts",
+      "support/hooks.ts",
+      "support/world.ts"
+    ],
+    "loader": "ts-node/esm",
+    "parallel": 0,
+    "format": ["progress"]
+  }
 }
-}
-

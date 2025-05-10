@@ -1,10 +1,11 @@
 import { Page } from 'playwright';
 
+
 export class LoginPage {
   constructor(private readonly page: Page) {}
 
   async open() {
-    await this.page.goto('https://cd-staging.clinicalkey.com/student/login');
+    await this.page.goto(process.env.BASE_URL!);
   }
 
   async enterUsername(username: string) {

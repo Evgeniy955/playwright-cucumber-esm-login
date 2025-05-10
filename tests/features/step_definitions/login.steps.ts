@@ -1,5 +1,5 @@
 import { Given, When, Then, setDefaultTimeout } from '@cucumber/cucumber';
-import '../../../utils/hooks.ts';
+import '../../../support/hooks.ts';
 
 setDefaultTimeout(60 * 1000);
 
